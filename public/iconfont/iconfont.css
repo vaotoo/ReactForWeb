@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "iconfont";
+    src: url(./iconfont.woff) format('woff');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon_airplay:before {
+    content: "\eb90";
+}
+
+.icon_details:before {
+    content: "\eb93";
+}
+
+.icon_delete:before {
+    content: "\eb94";
+}
+
+.icon_horn:before {
+    content: "\eb96";
+}
+
+.icon_live:before {
+    content: "\eb97";
+}
+
+.icon_more:before {
+    content: "\eb98";
+}
+
+.icon_namecard:before {
+    content: "\eb99";
+}
+
+.icon_photo:before {
+    content: "\eb9a";
+}
+
+.icon_roundclose:before {
+    content: "\eb9b";
+}
+
+.icon_im_keyboard:before {
+    content: "\eb9c";
+}
+
+.icon_roundreduce:before {
+    content: "\eb9d";
+}
+
+.icon_roundadd:before {
+    content: "\eb9e";
+}
+
+.icon_refresh:before {
+    content: "\eb9f";
+}
+
+.icon_search:before {
+    content: "\eba0";
+}
+
+.icon_scan:before {
+    content: "\eba1";
+}
+
+.icon_service:before {
+    content: "\eba2";
+}
+
+.icon_scan_namecard:before {
+    content: "\eba3";
+}
+
+.icon_share:before {
+    content: "\eba4";
+}
+
+.icon_signin_line:before {
+    content: "\eba5";
+}
+
+.icon_sms:before {
+    content: "\eba6";
+}
+
+.icon_setting:before {
+    content: "\eba7";
+}
+
+.icon_signal:before {
+    content: "\eba8";
+}
+
+.icon_skin:before {
+    content: "\eba9";
+}
+
+.icon_statistics:before {
+    content: "\ebaa";
+}
+
+.icon_wechat:before {
+    content: "\ebab";
+}
+
+.icon_warn:before {
+    content: "\ebac";
+}
+
+.icon_safety:before {
+    content: "\ebad";
+}
+
+.icon_workset:before {
+    content: "\ebae";
+}
+
+.icon_voipphone:before {
+    content: "\ebaf";
+}
+
+.icon_shield:before {
+    content: "\ebb0";
+}
+
+.icon_shakehands:before {
+    content: "\ebb1";
+}
+
+.icon_video:before {
+    content: "\ebb2";
+}
+
+.icon_task_done:before {
+    content: "\ebb3";
+}
+
+.icon_meeting:before {
+    content: "\ebb4";
+}

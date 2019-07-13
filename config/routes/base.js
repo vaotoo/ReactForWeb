@@ -1,0 +1,31 @@
+export default [{
+    path: '/',
+    component: 'index'
+}, {
+    title: '访问异常',
+    path: '/404',
+    component: '404'
+}, {
+    path: '/logout',
+    redirect: '/'
+}, {
+    title: '锚点页示例',
+    path: '/anchorExample',
+    component: 'anchorExample/views/anchor'
+}, {
+    title: '列表页示例',
+    path: '/listExample',
+    component: 'listExample/views/list'
+}, {
+    title: '数据可视化示例',
+    path: '/chartExample',
+    component: 'chartExample/views/chart'
+}, {
+    title: '地图可视化示例',
+    path: '/mapExample',
+    component: 'mapExample/views/map'
+}, {
+    title: '空白页示例',
+    path: '/emptyExample',
+    component: 'emptyExample/views/empty'
+}];

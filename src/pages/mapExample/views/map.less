@@ -1,0 +1,52 @@
+.mapContent {
+    padding: 80px 10px 10px;
+
+    .mapPanel {
+        height: 500px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .mapReplay {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        z-index: 3;
+    }
+
+    .empty {
+        margin-top: 20%;
+    }
+}
+
+.mapInfoBody {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .infoTitle {
+        color: #333;
+        font-weight: 700;
+    }
+
+    .infoItem {
+        width: 33.33%;
+        line-height: 20px;
+        border-bottom: 1px dashed #ccc;
+        font-size: 12px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+
+        p {
+            margin: 0;
+        }
+    }
+
+    :global {
+        .company_name {
+            width: 100%;
+        }
+    }
+}
