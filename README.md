@@ -141,15 +141,18 @@
         Umi 是阿里巴巴蚂蚁金服的底层前端框架，是一个可插拔的企业级 react 应用框架。Umi 以路由为基础的，支持类 next.js 的约定式路由，以及各种进阶的路由功能，并以此进行功能扩展，比如支持路由级的按需加载。然后配以完善的插件体系，覆盖从源码到构建产物的每个生命周期，支持各种功能扩展和业务需求，目前内外部加起来已有 50+ 的插件。
 
 
-* 8、Dva使用示例
+* 8、Dva使用请参考示例
 
-![avatar](doc/img/demo_doc_dva_1.png)
+        src/models/Global.ts
 
-![avatar](doc/img/demo_doc_dva_2.png)
+        src/layouts/Index.tsx
 
-![avatar](doc/img/demo_doc_dva_3.png)
+        src/layouts/header/HeaderOther.tsx
 
 
-`注意`
+        注意
 
-models/global.ts为全局数据，如非必要请勿加入过多数据，页面级数据请参照pages/menuExample中的示例
+        models/global.ts为全局数据，如非必要请勿加入过多数据
+
+        页面级数据请参照src/pages/menuExample中的示例
+
