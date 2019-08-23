@@ -1,0 +1,65 @@
+.menuBox {
+    height: 100%;
+    position: relative;
+    z-index: 1;
+
+    :global {
+        .ant-menu {
+            transition: none;
+        }
+
+        .ant-menu-submenu-open {
+            background-color: rgba(0, 153, 204, .1);
+        }
+    }
+
+    .collapsButton {
+        color: #09c;
+        width: 30px;
+        height: 30px;
+        border: 0;
+        border-radius: 100%;
+        background-color: #fff;
+        box-shadow: 0 0 5px 1px #ccc;
+        padding: 0;
+        margin-top: -15px;
+        text-align: right;
+        position: absolute;
+        top: 50%;
+        right: -12px;
+        z-index: 1;
+    }
+
+    &.menuCollapsed {
+        width: 50px;
+
+        :global {
+            .ant-menu-inline-collapsed {
+                width: 50px;
+                overflow: hidden;
+
+                .ant-menu-submenu {
+                    .ant-menu-submenu-title {
+                        padding: 0 16px !important;
+
+                        .anticon {
+                            padding-right: 20px;
+                        }
+                    }
+                }
+            }
+
+            .ant-menu-item {
+                font-size: 0;
+                padding: 0 !important;
+                text-align: center;
+            }
+
+            .ant-menu-submenu-popup {
+                .ant-menu-item {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.leftMenuContent {
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    transition-duration: .2s;
+    &.leftMenuCollapsed {
+        width: 50px;
+    }
+    .leftMenu {
+        height: 100%;
+        padding-top: 10px;
+        :global {
+            .ant-menu-item-active {
+                a {
+                    color: #666;
+                }
+            }
+            .ant-menu-item-selected {
+                background-color: #F5F6F8;
+                &:after {
+                    border-right-color: #68B493;
+                }
+                a {
+                    color: #000;
+                }
+            }
+        }
+    }
+}
