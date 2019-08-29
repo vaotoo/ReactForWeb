@@ -45,6 +45,10 @@
                 120
             ]
         },
+        "max-file-line-count": [
+            true,
+            500
+        ],
         "max-classes-per-file": [
             true,
             3
