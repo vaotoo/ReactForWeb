@@ -8,7 +8,7 @@
 
 ---
 
-* 脚手架默认效果
+* 脚手架默认效果 H5版=>[点击可查看ReactForH5](https://github.com/vaotoo/ReactForH5)
 
 ![avatar](doc/img/demo_1.jpg)
 ![avatar](doc/img/demo_2.png)
